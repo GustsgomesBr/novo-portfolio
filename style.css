@@ -14,12 +14,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #dbd8e3;
 }
 
 aside{
     width: 20vw;
     height: 95vh;
-    background: #352f44; 
+    background: #352f44;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 main{
@@ -42,7 +46,7 @@ aside .perfil img{
     width: 120px;
     height: 120px;
     border-radius: 90px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     border: 3px solid #dbd8e3;
 }
 
@@ -57,4 +61,34 @@ aside .perfil h3{
     font-weight: 400;
     font-size: 9pt;
     margin-top: 0.3rem;
+    color: grey;
+}
+
+aside section{
+    width: 90%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #dbd8e3;
+
+}
+
+aside section ul{
+    width: 90%;
+}
+
+aside section li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 9pt;
+}
+
+aside section li p{
+    color: grey;
 }
