@@ -134,31 +134,32 @@ main .wallpaper{
     overflow: hidden;
     background: #2a2438;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+main .wallpaper .wppTexts{
+    position: absolute;
+    z-index: 2;
+    margin-top: 5rem;
+    margin-left: 2rem;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 main .wallpaper h1{
-    position: absolute;
-    z-index: 2;
-    margin-left: 2rem;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border-bottom: 3px solid #dbd8e3;
     letter-spacing: 1px;
 }
 
 main .wallpaper p{
-    position: absolute;
-    z-index: 2;
-    margin-left: 2rem;
-    margin-top: 5rem;
     text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 0.5rem;
 }
 
 
 main .wallpaper img{
     z-index: 1;
-    transform: translateY(75px);
+    transform: translateY(-225px);
     width: 1200px;
     position: relative;
     opacity: 0.5;
