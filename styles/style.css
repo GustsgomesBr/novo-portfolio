@@ -235,6 +235,7 @@ main .myProjects{
     background: #352f44;
     display: flex;
     flex-direction: column;
+
     padding: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -247,4 +248,32 @@ main .myProjects{
     font-size: 11pt;
     color: grey;
     margin-top: 1rem;
+    min-height: 7rem;
+}
+
+.projectItem .btnDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+.btnDiv button{
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    background: blueviolet;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.1s ease;
+}
+
+.btnDiv button:hover{
+    background: rgb(120, 38, 197);
+    cursor: pointer;
+    letter-spacing: 1px;
 }
