@@ -275,7 +275,7 @@ main .myProjects{
     padding: 5px;
     border-radius: 2px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 }
 
 .btnDiv button:hover{
