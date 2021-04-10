@@ -186,7 +186,7 @@ main .wallpaper img:hover{
 }
 
 
-main .languagemSection{
+main .linguagemSection{
     width: 100%;
     height: 5rem;
     margin-top: 0.5rem;
@@ -196,11 +196,13 @@ main .languagemSection{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 } 
 
 main .item {
     display: flex;
     align-items: center;
+    margin-left: 1rem;
     opacity: 0.5;
     transition: 0.2s ease;
 }
@@ -286,7 +288,7 @@ main .myProjects{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 700px) {
     body {
         width: 100%;
         height: auto;
@@ -335,7 +337,7 @@ main .myProjects{
         grid-gap: 1rem;
     }
     
-    main .languagemSection{
+    main .linguagemSection{
         width: 100%;
         height: 5rem;
         margin-top: 0.5rem;
