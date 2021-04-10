@@ -254,7 +254,7 @@ main .myProjects{
     font-size: 11pt;
     color: grey;
     margin-top: 1rem;
-    min-height: 6rem;
+    min-height: 5rem;
 }
 
 .projectItem .btnDiv{
@@ -297,7 +297,7 @@ main .myProjects{
         overflow:visible;
     }
     aside{
-        width: 75vw;
+        width: 90vw;
         height: 95vh;
         background: #352f44;
         display: flex;
@@ -309,7 +309,7 @@ main .myProjects{
     }
     main{
         overflow: hidden;
-        width: 75vw;
+        width: 90vw;
         height: auto;
         margin: 0;
     }
@@ -317,7 +317,7 @@ main .myProjects{
     main .wallpaper .wppTexts{
     position: absolute;
     z-index: 2;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 2.7rem;
     display: flex;
     align-items: center;
